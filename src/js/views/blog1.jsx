@@ -7,7 +7,7 @@ export class Blog extends React.Component {
 				<div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 					<div className="col-md-6 px-0">
 						<h1 className="display-4 font-italic">
-							Title of a longer featured blog post ```\\\st
+							Title of a longer featured blog post
 						</h1>
 						<p className="lead my-3">
 							Multiple lines of text that form the lede, informing
@@ -103,15 +103,12 @@ export class Blog extends React.Component {
 							</svg>
 						</div>
 					</div>
-<<<<<<< HEAD
-=======
 					<div className="container">
 						<div className="row no-gutters">
 							<div className="col-12 col-sm-6 col-md-8" />
 							<div className="col-6 col-md-4" />
 						</div>
 					</div>
->>>>>>> 1d4a5f32c4deeae1895b694034878d58a913d4a7
 				</div>
 				<main role="main" className="container">
 					<div className="row">

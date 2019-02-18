@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Store,{Context} from '../store/appContext.jsx';
+import Store,{Context} from '../store/appcontext.jsx';
 
 import '../../styles/blog.css';
 
-function BlogPost(props){
+function Blog(props){
     return(
 
             <Context.Consumer>
@@ -13,7 +13,7 @@ function BlogPost(props){
                         return(
                             store.posts.map((item, index) => {
                               return (<div>
-                              <h2 key={index}>{item.title}</h2>
+                              <h1 key={index}>{item.title}</h1>
                               <p key={index}>{item.date} by {item.author}</p>
                               <p key={index}>{item.content.substring(0,800)}</p>
                               </div>);
@@ -25,8 +25,8 @@ function BlogPost(props){
     );
 }
 
-BlogPost.propTypes = {
+Blog.propTypes = {
     items: PropTypes.array
 };
 
-export default Store(BlogPost);
+export default Store(Blog);
