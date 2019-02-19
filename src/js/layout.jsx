@@ -6,7 +6,7 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Login } from "./views/login.jsx";
-import { Blog } from "./views/blog.jsx";
+import { Blogview } from "./views/blogview.jsx";
 import { StoreView } from "./views/storeView.jsx";
 import { Checkout } from "./views/checkout.jsx";
 import { Cover } from "./views/cover.jsx";

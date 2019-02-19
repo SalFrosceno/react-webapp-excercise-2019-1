@@ -1,23 +1,21 @@
 import React from "react";
+import Blog from "../component/blog.jsx";
+import Blogjum from "../component/blogjum.jsx";
 
-export class Blog extends React.Component {
+export class Blogview extends React.Component {
 	render() {
 		return (
 			<div className="container">
 				<div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 					<div className="col-md-6 px-0">
 						<h1 className="display-4 font-italic">
-							Title of a longer featured blog post
+							<Blogjum />
 						</h1>
-						<p className="lead my-3">
-							Multiple lines of text that form the lede, informing
-							new readers quickly and efficiently about what’s
-							most interesting in this post’s contents.
-						</p>
-
+						<p className="lead my-3" />
+						<Blogjum />
 						<p className="lead mb-0">
 							<a href="#" className="text-white font-weight-bold">
-								Continue reading...
+								<Blogjum />
 							</a>
 						</p>
 					</div>
@@ -28,19 +26,15 @@ export class Blog extends React.Component {
 						<div className="card flex-md-row mb-4 shadow-sm h-md-250">
 							<div className="card-body d-flex flex-column align-items-start">
 								<strong className="d-inline-block mb-2 text-primary">
-									World
+									<Blog />
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										Featured post
+										<Blog />
 									</a>
 								</h3>
-								<div className="mb-1 text-muted">Nov 12</div>
-								<p className="card-text mb-auto">
-									This is a wider card with supporting text
-									below as a natural lead-in to additional
-									content.
-								</p>
+								<div className="mb-1 text-muted" />
+								<p className="card-text mb-auto" />
 								<a href="#">Continue reading</a>
 							</div>
 							<svg
@@ -77,9 +71,7 @@ export class Blog extends React.Component {
 								</h3>
 								<div className="mb-1 text-muted">Nov 11</div>
 								<p className="card-text mb-auto">
-									This is a wider card with supporting text
-									below as a natural lead-in to additional
-									content.
+									<Blog />
 								</p>
 								<a href="#">Continue reading</a>
 							</div>
