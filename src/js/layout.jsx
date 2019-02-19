@@ -28,7 +28,7 @@ export class Layout extends React.Component {
 						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/login" component={Login} />
-						<Route path="/blog" component={Blog} />
+						<Route path="/blogview" component={Blogview} />
 						<Route path="/store" component={StoreView} />
 						<Route path="/checkout" component={Checkout} />
 						<Route path="/cover" component={Cover} />

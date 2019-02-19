@@ -26,7 +26,7 @@ export class Navbar extends React.Component {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/blog" className="nav-link">
+							<Link to="/blogview" className="nav-link">
 								Blog
 							</Link>
 						</li>

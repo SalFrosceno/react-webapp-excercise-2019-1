@@ -10,7 +10,7 @@ function Blogjum(props) {
 					if (index <= 0) {
 						return (
 							<div>
-								<h2 key={index}>{item.title}</h2>
+								<h1 key={index}>{item.title}</h1>
 								<p key={index}>
 									{item.content.substring(0, 400)}
 								</p>

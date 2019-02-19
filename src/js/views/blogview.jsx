@@ -1,6 +1,6 @@
 import React from "react";
-import Blog from "../component/blog.jsx";
 import Blogjum from "../component/blogjum.jsx";
+import Blog from "../component/blog.jsx";
 
 export class Blogview extends React.Component {
 	render() {
@@ -8,15 +8,15 @@ export class Blogview extends React.Component {
 			<div className="container">
 				<div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 					<div className="col-md-6 px-0">
-						<h1 className="display-4 font-italic">
+						<p className="lead my-3">
 							<Blogjum />
-						</h1>
-						<p className="lead my-3" />
-						<Blogjum />
+						</p>
+
 						<p className="lead mb-0">
-							<a href="#" className="text-white font-weight-bold">
-								<Blogjum />
-							</a>
+							<a
+								href="#"
+								className="text-white font-weight-bold"
+							/>
 						</p>
 					</div>
 				</div>
@@ -26,15 +26,19 @@ export class Blogview extends React.Component {
 						<div className="card flex-md-row mb-4 shadow-sm h-md-250">
 							<div className="card-body d-flex flex-column align-items-start">
 								<strong className="d-inline-block mb-2 text-primary">
-									<Blog />
+									World
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										<Blog />
+										Featured post
 									</a>
 								</h3>
-								<div className="mb-1 text-muted" />
-								<p className="card-text mb-auto" />
+								<div className="mb-1 text-muted">Nov 12</div>
+								<p className="card-text mb-auto">
+									This is a wider card with supporting text
+									below as a natural lead-in to additional
+									content.
+								</p>
 								<a href="#">Continue reading</a>
 							</div>
 							<svg
@@ -71,7 +75,9 @@ export class Blogview extends React.Component {
 								</h3>
 								<div className="mb-1 text-muted">Nov 11</div>
 								<p className="card-text mb-auto">
-									<Blog />
+									This is a wider card with supporting text
+									below as a natural lead-in to additional
+									content.
 								</p>
 								<a href="#">Continue reading</a>
 							</div>
@@ -97,6 +103,8 @@ export class Blogview extends React.Component {
 					</div>
 					<div className="container">
 						<div className="row no-gutters">
+							<div className="col-12 col-sm-6 col-md-8" />
+							<div className="col-6 col-md-4" />
 							<div className="col-12 col-sm-6 col-md-8" />
 							<div className="col-6 col-md-4" />
 						</div>
