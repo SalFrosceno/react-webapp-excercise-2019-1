@@ -13,7 +13,7 @@ function Blog(props) {
 							<p key={index}>
 								{item.date} by {item.author}
 							</p>
-							<p key={index}>{item.content.substring(0, 800)}</p>
+							<p key={index}>{item.content.substring(0, 400)}</p>
 						</div>
 					);
 				});
